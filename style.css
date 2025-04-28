@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(18, 18, 18); 
+    color: rgb(167, 167, 167); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 108, 32); 
+}
+
+h2 {
+    color: rgb(167, 167, 167);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    background-color: #222; /* Dark background for input */
+    color: #ffa500;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 108, 32); 
+    color: #000; 
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff8c00; 
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#copy-field {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 108, 32); 
+    color: #000000; 
+    cursor: pointer;
+    user-select: all;
+    border-radius: 5px;
+    display: none;
+}
+
+#copy-message {
+    color: #32cd32;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
